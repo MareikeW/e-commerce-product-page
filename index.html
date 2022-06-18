@@ -3,42 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | E-commerce product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <header>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="#">Collections</a></li>
+        <li class="nav-item"><a href="#">Men</a></li>
+        <li class="nav-item"><a href="#">Women</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
+  <main>
+    <article>
+      <div class="images-container">
+        <button class="previous-image"></button>
+        <img src="#" alt="#" />
+        <img src="#" alt="#" />
+        <img src="#" alt="#" />
+        <img src="#" alt="#" />
+        <button class="next-image"></button>
+      </div>
+      <h1>Sneaker Company</h1>
 
-  Sneaker Company
-
-  Fall Limited Edition Sneakers
-
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart
-  
-  <div class="attribution">
+      <h2>Fall Limited Edition Sneakers</h2>
+    
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+    
+      <h3>$125.00</h3>
+      <p>50%</p>
+      <p>$250.00</p>
+      <button>0</button>
+      <button>Add to cart</button>
+    </article>
+  </main>
+ 
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Mareike Wendler</a>.
-  </div>
+  </footer>
 </body>
 </html>
