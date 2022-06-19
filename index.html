@@ -50,8 +50,18 @@
           <p class="price-item-3 initial-price">$250.00</p>
         </div>
         
-        <button>-</button>0<button>+</button>
-        <button class="btn-add-to-card">Add to cart</button>
+        <div class="quantity-container">
+          <button class="btn-quantity" id="btn-quantity-decrease" aria-labelledby="btn-quantity-decrease-label">
+            <span id="btn-quantity-decrease-label" hidden>Decrease quantity by one</span>
+          </button>
+          <p class="quantity-display">0</p>
+          <button class="btn-quantity"  id="btn-quantity-increase" aria-labelledby="btn-quantity-increase-label">
+            <span id="btn-quantity-increase-label" hidden></span>
+          </button>
+        </div>
+        <div class="add-to-cart-container">
+          <button class="btn-add-to-card">Add to cart</button>
+        </div>
       </section>
     </article>
   </main>

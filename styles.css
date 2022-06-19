@@ -111,6 +111,39 @@ h3 {
     margin: auto 0;
 }
 
+.quantity-container {
+    background-color: var(--neutral-light-grayish-blue);
+    border-radius: 5px;
+    padding: 0.8rem 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.btn-quantity {
+    border: none;
+    background-color: inherit;
+    width: 30px;
+    height: 30px; 
+    padding: 1rem 1.5rem;
+}
+
+#btn-quantity-decrease {
+    background-image: url("./images/icon-minus.svg");
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+#btn-quantity-increase {
+    background-image: url("./images/icon-plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quantity-display {
+    margin: auto 0;
+}
+
 .btn-add-to-card {
     background-color: var(--primary-orange);
     border: none;
